@@ -3,17 +3,17 @@ Juego:
 	- Rey					[king.h - King]
 		- Nombre 			(string - _name)
 		- Título			(string - _title)
-		- Años al poder 	(int - _age)
+		- Años al poder 		(int - _age)
 		- Vivo				(bool - _alive)
 		
-    - Poderes del Reino		[reignpowers.h - ReignPowers]
-		- Tipos de Poder	(power_t - {Religion, Pueblo, Ejercito, Economia})
+    	- Poderes del Reino			[reignpowers.h - ReignPowers]
+		- Tipos de Poder		(power_t - {Religion, Pueblo, Ejercito, Economia})
 		- Poderes			(int[] - _values[])
 
-  - Tarjetas				[card.h - Card]
+  - Tarjetas					[card.h - Card]
 	- Id					(int - _id)
 	- Texto					(string - _name)
-    - Opciones				(Option[] - _options[])
+    	- Opciones				(Option[] - _options[])
 
   - Opción					[option.h - Option]
     - Texto					(string - _text)
