@@ -43,11 +43,12 @@ public:
     string toString() const;
     void print(ostream &os) const;
 
+    //Constantes Públicas
+    static const int MAX_CARD_OPTIONS = 3;
+    static const int MIN_CARD_OPTIONS = 3;
+
 private:
     //Atributos de la classe
-    #define MAX_CARD_OPTIONS 3
-    #define MIN_CARD_OPTIONS 3
-
     int _id;
     string _name;
     Option _options[];

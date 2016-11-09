@@ -28,6 +28,10 @@ public:
     //Consultores
     int getPower(power_t) const;
     bool isLoseCondition() const;
+    bool operator==(const ReignPowers &reignpowersB) const;
+    bool operator!=(const ReignPowers &reignpowersB) const;
+    ReignPowers operator+(const ReignPowers &reignpowersB) const;
+    ReignPowers operator-(const ReignPowers &reignpowersB) const;
 
     //Modificadores
 
@@ -35,13 +39,13 @@ public:
     string toString() const;
     void print(ostream &os) const;
 
-    //Variables públicas
+    //Variables y constantes públicas
     enum power_t { Religion, Pueblo, Ejercito, Economia };
+    static const int MAX_POWER = 100;
+    static const int MIN_POWER = 0;
 
 private:
     //Atributos de la classe
-    #define MAX_POWER 100
-    #define MIN_POWER 0
     int _values[];
 
 };
