@@ -49,7 +49,7 @@ private:
 
     /* Ideas
      * : Rey anterior -> King *_antecesor
-     * : Rey posterior -> King *_predecesor
+     * : Rey posterior -> King *_sucesor
      * : Causa de la muerte
      * /
 };
