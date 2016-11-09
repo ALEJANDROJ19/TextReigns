@@ -1,2 +1,2 @@
 # TextReigns
-A Text Reigns Clone by OdnetninI
+A Text Reigns Clone by OdnetninI Forked by ALEJANDROJ19

@@ -28,5 +28,8 @@
 *.out
 *.app
 
+# Linux tmp files
+*~
+
 # CMake Directory
 build/
