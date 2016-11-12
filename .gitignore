@@ -31,5 +31,8 @@
 # Linux tmp files
 *~
 
+# Git files
+.idea/
+
 # CMake Directory
 build/
