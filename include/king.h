@@ -51,7 +51,7 @@ private:
      * : Rey anterior -> King *_antecesor
      * : Rey posterior -> King *_sucesor
      * : Causa de la muerte
-     * /
+     */
 };
 
 #endif // KING_H

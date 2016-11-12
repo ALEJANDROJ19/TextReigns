@@ -40,7 +40,7 @@ public:
     void print(ostream &os) const;
 
     //Variables y constantes públicas
-    enum power_t { Religion, Pueblo, Ejercito, Economia };
+    enum power_t { Religion, Pueblo, Ejercito, Economia }; //TODO: Poner otro nombre
     static const int MAX_POWER = 100;
     static const int MIN_POWER = 0;
 

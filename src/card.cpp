@@ -1,4 +1,4 @@
-#include "card.h"
+#include "../include/card.h"
 
 //Constructores
 Card::Card(int id,string text){
